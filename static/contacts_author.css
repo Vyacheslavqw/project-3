@@ -1,0 +1,299 @@
+img.background {
+min-height: 100%;
+min-width: 640px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0
+}
+.image {
+    position: relative;
+    width: 100%;
+    }
+
+#box {
+    top: 90px;
+    left: 250px;
+    width:780px;
+    height:600px;
+    background-color: #B0E0E6;
+    position: relative;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+    }
+
+.back{
+    top: 70px;
+    position: absolute;
+    left: 1100px;
+    margin-right: 40px;
+    width: 8%;
+    height: 65px;
+    color: #000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.back:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.back:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    height: 2px;
+    background-color: #008B8B;
+    transition: width 0.5s;
+}
+
+.back{
+  transition: 1s;
+  text-align: center;
+}
+.back:hover {
+  transform: scale(1.2);
+}
+
+.back{
+  color: #000;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.back:hover{
+  color: #fff;
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+
+.contact{
+    top: -20px;
+    position: absolute;
+    left: 0px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 40px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+    }
+
+#city {
+    top: 150px;
+    left: 310px;
+    width:300px;
+    height:200px;
+    background-color: #B0C4DE;
+    position: absolute;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+    }
+
+#gmail {
+    top: 450px;
+    left: 300px;
+    width:300px;
+    height:200px;
+    background-color: #B0C4DE;
+    position: absolute;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+    }
+
+#vk {
+    top: 150px;
+    left: 685px;
+    width:300px;
+    height:200px;
+    background-color: #B0C4DE;
+    position: absolute;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+    }
+
+#tg {
+    top: 450px;
+    left: 685px;
+    width:300px;
+    height:200px;
+    background-color: #B0C4DE;
+    position: absolute;
+    -webkit-border-top-left-radius: 30px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 40px;
+    margin-bottom: 100px;
+    opacity: 0.5;
+    }
+
+.city {
+    top: 130px;
+    position: absolute;
+    left: 350px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.name {
+    top: 190px;
+    position: absolute;
+    left: 350px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 20px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.vk {
+    top: 130px;
+    position: absolute;
+    left: 730px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.gmail {
+    top: 425px;
+    position: absolute;
+    left: 350px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.tg {
+    top: 425px;
+    position: absolute;
+    left: 730px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.vk_link {
+    top: 210px;
+    position: absolute;
+    left: 730px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.gmail_link {
+    top: 520px;
+    position: absolute;
+    left: 350px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}
+
+.tg_link {
+    top: 520px;
+    position: absolute;
+    left: 730px;
+    margin-right: 40px;
+    width: 100%;
+    color: #000;
+    font-size: 15px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="static\choose_pet.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор</title>
+</head>
+<body style='overflow-x:hidden;'>
+<img src="{{ url_for('static', filename='1659616674_5-kartinkin-net-p-svetlaya-tekstura-dlya-saita-krasivo-5.png') }}", style="width: 100%", class="background"/>
+<div id="box"></div>
+<p class="first_message"> Сдесь можно найти нужного вам питомца</p>
+<p class="group_animals">Впишите тип животного кошка/собака/птица/земноводные/рыбы</p>
+<form>
+    <input type="text" id="myInput1" class="group_animals_write_text" onkeydown="if(event.keyCode==13){return false;}" style="border-radius:10px;">
+
+    <p class="age_animals">Впишите возраст желаемого животного</p>
+
+    <input type="text" id="myInput2" class="age_animals_write_text" onkeydown="if(event.keyCode==13){return false;}" style="border-radius:10px;" >
+
+    <p class="breed_animals">Впишите породу желаемого животного</p>
+
+    <input type="text" id="myInput3" class="breed_animals_write_text" onkeydown="if(event.keyCode==13){return false;}" style="border-radius:10px;" >
+
+    <p class="personality_animals">Впишите характер желаемого животного</p>
+
+    <textarea type="text" id="myInput4" class="personality_animals_write_text" onkeydown="if(event.keyCode==13){return false;}" style="border-radius:10px;" > </textarea>
+
+    <button type="reset" class="submit" id="btn">Отправка сообщения</button>
+</form>>
+<a href="http://127.0.0.1:8080/" class="back">Назад</a>
+</body>
+</html>

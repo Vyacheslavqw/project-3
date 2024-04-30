@@ -1,0 +1,223 @@
+img.background {
+min-height: 100%;
+min-width: 640px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0
+}
+.image {
+    position: relative;
+    width: 100%;
+    }
+
+h2 {
+    top: 100px;
+    position: absolute;
+    left: 0px;
+    margin-right: 40px;
+    width: 70%;
+    color: #00FFFF;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    -webkit-text-stroke: 1px #008B8B;
+    cursor: pointer;
+
+    }
+
+.choose_pet {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-right: 40px;
+    width: 20%;
+    color: #00FFFF;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    -webkit-text-stroke: 1px #008B8B;
+    cursor: pointer;
+    }
+.choose_pet:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.choose_pet:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #008B8B;
+    transition: width 0.5s;
+}
+
+.choose_pet{
+  transition: 1s;
+  text-align: center;
+}
+.choose_pet:hover {
+  transform: scale(1.2);
+}
+
+.choose_pet{
+  color: #00FFFF;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.choose_pet:hover{
+  color: #fff;
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+
+.give_pet {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    margin-right: 40px;
+    width: 20%;
+    color: #00FFFF;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    -webkit-text-stroke: 1px #008B8B;
+    cursor: pointer;
+    }
+
+.give_pet:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.give_pet:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #008B8B;
+    transition: width 0.5s;
+}
+
+.give_pet{
+  transition: 1s;
+  text-align: center;
+}
+.give_pet:hover {
+  transform: scale(1.2);
+}
+
+.contacts_author {
+    position: absolute;
+    top: 0px;
+    left: 600px;
+    margin-right: 40px;
+    width: 20%;
+    color: #00FFFF;
+    font-size: 30px;
+    line-height: 55px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-stroke: 10px #000;
+    -webkit-text-stroke: 1px #008B8B;
+    cursor: pointer;
+    }
+
+.give_pet{
+  color: #00FFFF;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.give_pet:hover{
+  color: #fff;
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
+
+.contacts_author:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.contacts_author:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px;
+    background-color: #008B8B;
+    transition: width 0.5s;
+}
+
+.contacts_author{
+  transition: 1s;
+  text-align: center;
+}
+.contacts_author:hover {
+  transform: scale(1.2);
+}
+
+.contacts_author{
+  color: #00FFFF;
+  font-size: 30px;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.contacts_author:hover{
+  color: #fff;
+  -webkit-text-shadow: 2px 2px 2px #000;
+  -moz-text-shadow: 2px 2px 2px #000;
+      text-shadow: 2px 2px 2px #000;
+}
